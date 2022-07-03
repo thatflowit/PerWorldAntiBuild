@@ -1,0 +1,5 @@
+#General configuration file
+worldIsBlocked: "&7[&ePWAB&7] &8» &7This world is &eblocked&7!"
+worldUnblocked: "&7[&ePWAB&7] &8» &7World &eunblocked&7!"
+worldBlocked: "&7[&ePWAB&7] &8» &7World &eblocked&7!"
+cmdUsage: "&7[&ePWAB&7] &8» &7Please use: &e/antibuild <world>"

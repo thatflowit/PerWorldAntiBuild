@@ -1,0 +1,8 @@
+name: PerWorldAntiBuild
+version: '${project.version}'
+main: it.thatflow.perworldantibuild.PerWorldAntiBuildPlugin
+authors: [thatflow]
+description: Prevent building in a specific world
+commands:
+  antibuild:
+    description: Activate antibuilding in a specific world
