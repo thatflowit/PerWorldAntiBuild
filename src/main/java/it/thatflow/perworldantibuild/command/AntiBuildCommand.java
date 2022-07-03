@@ -16,6 +16,10 @@ public class AntiBuildCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+        if(!sender.hasPermission("pwab.antibuild")) {
+            sender.sendMessage(Utilities.format(configService.getConfig().getString("noPermission")));
+            return true;
+        }
         if(args.length == 1) {
             String worldName = args[0];
 
